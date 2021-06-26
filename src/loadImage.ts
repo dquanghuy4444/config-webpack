@@ -7,4 +7,4 @@ const component = () => {
   element.appendChild(webpackLogo)
   return element
 }
-document.getElementById('root').appendChild(component())
+document.getElementById('root')?.appendChild(component())
